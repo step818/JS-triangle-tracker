@@ -1,6 +1,8 @@
-//import './styles.css';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import $ from 'jquery';
 import { Triangle } from './triangle-tracker.js';
-
+import './styles.css';
 
 $(document).ready(function() {
   $("form#triangle").submit(function(event) {

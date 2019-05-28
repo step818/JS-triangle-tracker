@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="bundle.js"></script> -->
+    <link href="src/styles.css" rel="stylesheet" type="text/css">
+    <title>Triangle Checker</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Triangle Checker</h1>
+
+    <form id="triangle">
+      <div class="form-group">
+        <label for="side1">Length of side 1:</label>
+        <input id="side1" type="text">
+        <br>
+
+        <label for="side2">Length of side 2:</label>
+        <input id="side2" type="text">
+        <br>
+        <label for="side3">Length of side 3:</label>
+        <input id="side3" type="text">
+
+        <p><button type="submit" class="btn">Check triangle!</button></p>
+      </form>
+
+      <div id="result">
+        <p>This is <span class="triangle_type"></span>.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
